@@ -1,16 +1,12 @@
 module.exports = {
 	siteMetadata: {
-		title: 'Gatsby Bulma Quickstart',
-		author: 'Aman Mittal',
-		imageUrl: 'https://i.imgur.com/Vz81GEl.png',
-		description: 'A Project to bootstrap your next Gatsby + Bulma site.',
-		keywords: `Web developer, Web, Developer, CSS, HTML, JS, Javascript, Gatsby, Bulma Developer, CSS3, HTML5, Seo, Starter`,
-		twitter: 'https://twitter.com/amanhimself',
-		github: `https://github.com/amandeepmittal`,
-		medium: 'https://medium.com/@amanhimself',
-		gatsby: 'https://www.gatsbyjs.org/',
-		bulma: 'https://bulma.io/',
-		siteUrl: `https://www.example.com`
+		title: 'Portfolio | Booink',
+		author: 'booink',
+		imageUrl: 'https://avatars2.githubusercontent.com/u/38789547?s=460&v=4',
+		description: `Booink's portfolio site`,
+		keywords: `Booink`,
+		twitter: 'https://twitter.com/Booink4',
+		github: `https://github.com/booink`
 	},
 	plugins: [
 		'gatsby-plugin-react-helmet',
@@ -32,7 +28,6 @@ module.exports = {
 				background_color: '#2980b9',
 				theme_color: '#2980b9',
 				display: 'standalone',
-				icon: 'src/images/gatsby-icon.png',
 				orientation: 'portrait'
 			}
 		},
@@ -45,7 +40,6 @@ module.exports = {
 				anonymize: true
 			}
 		},
-		`gatsby-plugin-sitemap`
 		// this (optional) plugin enables Progressive Web App + Offline functionality
 		// To learn more, visit: https://gatsby.app/offline
 		// 'gatsby-plugin-offline',

@@ -25,10 +25,9 @@ const Midsection = () => (
 							</figure>
 							<div className="media-content">
 								<div className="content">
-									<h1 className="title is-size-4">Uses Bulma</h1>
+									<h1 className="title is-size-4">Twitter</h1>
 									<p className="subtitle is-size-5">
-										Bulma is an open source CSS framework and used by more than
-										100,000 developers.
+										<a href="https://twitter.com/Booink4">https://twitter.com/Booink4</a>
 									</p>
 								</div>
 							</div>
@@ -43,11 +42,9 @@ const Midsection = () => (
 							</figure>
 							<div className="media-content">
 								<div className="content">
-									<h1 className="title is-size-4">JAMStack Solution</h1>
+									<h1 className="title is-size-4">GitHub</h1>
 									<p className="subtitle is-size-5">
-										It’s a new way of building websites and apps that delivers
-										better performance, higher security, lower cost of scaling,
-										and a better developer experience.
+										<a href="https://github.com/booink">https://github.com/booink</a>
 									</p>
 								</div>
 							</div>
@@ -62,11 +59,26 @@ const Midsection = () => (
 							</figure>
 							<div className="media-content">
 								<div className="content">
-									<h1 className="title is-size-4">Gatsby + React?</h1>
+									<h1 className="title is-size-4">Email</h1>
 									<p className="subtitle is-size-5">
-										Uses Gatsby's version <code>v2</code>, enjoy the power of
-										the latest web technologies. All set up and waiting for you
-										to start building.
+										<a href="mailto:booink.work@gmail.com">booink.work@gmail.com</a>
+									</p>
+								</div>
+							</div>
+						</article>
+					</div>
+					<div className="column is-one-third">
+						<article className="media">
+							<figure className="media-left">
+								<span className="icon is-medium">
+									<FaOsi size="fa-2x" className="has-text-primary" />
+								</span>
+							</figure>
+							<div className="media-content">
+								<div className="content">
+									<h1 className="title is-size-4">Forkwell</h1>
+									<p className="subtitle is-size-5">
+										<a href="https://portfolio.forkwell.com/@booink">https://portfolio.forkwell.com/@booink</a>
 									</p>
 								</div>
 							</div>
@@ -81,11 +93,13 @@ const Midsection = () => (
 							</figure>
 							<div className="media-content">
 								<div className="content">
-									<h1 className="title is-size-4">Responsive Design</h1>
+									<h1 className="title is-size-4">Programming Languages</h1>
 									<p className="subtitle is-size-5">
-										Bulma is based on the Flexbox model and built with Sass. The
-										simplest grid system Just add columns, they will resize
-										themselves, like this website.
+										<ul>
+                      <li>Ruby</li>
+                      <li>JavaScript</li>
+                      <li>Swift</li>
+										</ul>
 									</p>
 								</div>
 							</div>
@@ -96,34 +110,15 @@ const Midsection = () => (
 						<article className="media">
 							<figure className="media-left">
 								<span className="icon is-medium">
-									<FaOsi size="fa-2x" className="has-text-primary" />
-								</span>
-							</figure>
-							<div className="media-content">
-								<div className="content">
-									<h1 className="title is-size-4">Open Source</h1>
-									<p className="subtitle is-size-5">
-										This starter kit is MIT Licensed. Need I say more?
-										<Emoji emoji="🤑" />
-									</p>
-								</div>
-							</div>
-						</article>
-					</div>
-					<div className="column is-one-third">
-						<article className="media">
-							<figure className="media-left">
-								<span className="icon is-medium">
 									<FaRocket size="fa-2x" className="has-text-danger" />
 								</span>
 							</figure>
 							<div className="media-content">
 								<div className="content">
-									<h1 className="title is-size-4">Starter Kit</h1>
+									<h1 className="title is-size-4">Locations</h1>
 									<p className="subtitle is-size-5">
-										This starter kit is target to developers who are looking
-										forward to use Bulma along with GatsbyJS. You can read more
-										in the <a href="#">documentation</a> on how to get started.
+										Born and raised: Hokkaido<br />
+										Now: Tokyo
 									</p>
 								</div>
 							</div>
